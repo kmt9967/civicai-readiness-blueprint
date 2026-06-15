@@ -1,0 +1,1427 @@
+⚠ Slow filesystem detected. The benchmark took 291ms. If F:\Hackathon\hackathon-mvp\.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+[browser] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mCivicAIDashboard[0m } [36mfrom[0m [32m"@/components/civic-ai-dashboard"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m4 |[0m   [36mreturn[0m <[33mCivicAIDashboard[0m />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] Uncaught Error: ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/civic-ai-dashboard'
+> 1 | import { CivicAIDashboard } from "@/components/civic-ai-dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   return <CivicAIDashboard />;
+
+Import map: aliased to relative './components/civic-ai-dashboard' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./app/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:20:1
+Module not found: Can't resolve '@/components/readiness-charts'
+  [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+[31m[1m>[0m [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+
+Import map: aliased to relative './components/readiness-charts' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:20:1
+Module not found: Can't resolve '@/components/readiness-charts'
+  [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+[31m[1m>[0m [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+
+Import map: aliased to relative './components/readiness-charts' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:20:1
+Module not found: Can't resolve '@/components/readiness-charts'
+  [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+[31m[1m>[0m [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+
+Import map: aliased to relative './components/readiness-charts' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:20:1
+Module not found: Can't resolve '@/components/readiness-charts'
+  [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+[31m[1m>[0m [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+
+Import map: aliased to relative './components/readiness-charts' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:21:1
+Module not found: Can't resolve '@/components/readiness-results'
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+[31m[1m>[0m [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+
+Import map: aliased to relative './components/readiness-results' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:21:1
+Module not found: Can't resolve '@/components/readiness-results'
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+[31m[1m>[0m [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+
+Import map: aliased to relative './components/readiness-results' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:21:1
+Module not found: Can't resolve '@/components/readiness-results'
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+[31m[1m>[0m [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+
+Import map: aliased to relative './components/readiness-results' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:21:1
+Module not found: Can't resolve '@/components/readiness-results'
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+[31m[1m>[0m [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+
+Import map: aliased to relative './components/readiness-results' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:23:1
+Module not found: Can't resolve '@/components/scenario-comparison'
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+[31m[1m>[0m [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+
+Import map: aliased to relative './components/scenario-comparison' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:23:1
+Module not found: Can't resolve '@/components/scenario-comparison'
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+[31m[1m>[0m [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+
+Import map: aliased to relative './components/scenario-comparison' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:23:1
+Module not found: Can't resolve '@/components/scenario-comparison'
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+[31m[1m>[0m [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+
+Import map: aliased to relative './components/scenario-comparison' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:23:1
+Module not found: Can't resolve '@/components/scenario-comparison'
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+[31m[1m>[0m [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+
+Import map: aliased to relative './components/scenario-comparison' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:20:1
+Module not found: Can't resolve '@/components/readiness-charts'
+  [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+[31m[1m>[0m [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+
+Import map: aliased to relative './components/readiness-charts' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:21:1
+Module not found: Can't resolve '@/components/readiness-results'
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+[31m[1m>[0m [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+
+Import map: aliased to relative './components/readiness-results' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:23:1
+Module not found: Can't resolve '@/components/scenario-comparison'
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+[31m[1m>[0m [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+
+Import map: aliased to relative './components/scenario-comparison' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] Uncaught Error: ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  16 |   Users,
+  17 | } from "lucide-react";
+> 18 | import { ArchitectureFlow } from "@/components/architecture-flow";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import { CommunityInputForm } from "@/components/community-input-form";
+  20 | import { ReadinessCharts } from "@/components/readiness-charts";
+  21 | import { ReadinessResults } from "@/components/readiness-results";
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/civic-ai-dashboard.tsx:18:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./components/civic-ai-dashboard.tsx:18:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  [90m16 |[0m   [33mUsers[0m,
+  [90m17 |[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m18 |[0m [36mimport[0m { [33mArchitectureFlow[0m } [36mfrom[0m [32m"@/components/architecture-flow"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m { [33mCommunityInputForm[0m } [36mfrom[0m [32m"@/components/community-input-form"[0m;
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:22:1
+Module not found: Can't resolve '@/components/responsible-guardrails'
+  [90m20 |[0m [36mimport[0m { [33mReadinessCharts[0m } [36mfrom[0m [32m"@/components/readiness-charts"[0m;
+  [90m21 |[0m [36mimport[0m { [33mReadinessResults[0m } [36mfrom[0m [32m"@/components/readiness-results"[0m;
+[31m[1m>[0m [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+  [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m25 |[0m [36mimport[0m {
+
+Import map: aliased to relative './components/responsible-guardrails' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/civic-ai-dashboard.tsx:24:1
+Module not found: Can't resolve '@/components/strategic-roadmap'
+  [90m22 |[0m [36mimport[0m { [33mResponsibleGuardrails[0m } [36mfrom[0m [32m"@/components/responsible-guardrails"[0m;
+  [90m23 |[0m [36mimport[0m { [33mScenarioComparison[0m } [36mfrom[0m [32m"@/components/scenario-comparison"[0m;
+[31m[1m>[0m [90m24 |[0m [36mimport[0m { [33mStrategicRoadmap[0m } [36mfrom[0m [32m"@/components/strategic-roadmap"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m25 |[0m [36mimport[0m {
+  [90m26 |[0m   buildRoadmap,
+  [90m27 |[0m   buildScenarios,
+
+Import map: aliased to relative './components/strategic-roadmap' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] Uncaught Error: ./components/civic-ai-dashboard.tsx:18:1
+Module not found: Can't resolve '@/components/architecture-flow'
+  16 |   Users,
+  17 | } from "lucide-react";
+> 18 | import { ArchitectureFlow } from "@/components/architecture-flow";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import { CommunityInputForm } from "@/components/community-input-form";
+  20 | import { ReadinessCharts } from "@/components/readiness-charts";
+  21 | import { ReadinessResults } from "@/components/readiness-results";
+
+Import map: aliased to relative './components/architecture-flow' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/civic-ai-dashboard.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/civic-ai-dashboard.tsx:18:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./components/civic-ai-dashboard.tsx:18:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: getInputQuality is not defined
+    at calculateReadiness (lib\readiness.ts:310:24)
+    at <unknown> (components\civic-ai-dashboard.tsx:50:57)
+    at CivicAIDashboard (components\civic-ai-dashboard.tsx:50:32)
+  308 |
+  309 | export function calculateReadiness(input: CommunityInput): ReadinessResult {
+> 310 |   const inputQuality = getInputQuality(input);
+      |                        ^
+  311 |   const normalizedScores = scoreFields.map((field) => input[field.key] * 20);
+  312 |   const overallScore = Math.round(
+  313 |     normalizedScores.reduce((sum, score) => sum + score, 0) / {
+  digest: '1711170313'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
