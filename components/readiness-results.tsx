@@ -12,8 +12,12 @@ import {
   ShieldCheck,
   Sparkles,
 } from "lucide-react";
+import { AIPolicyInsight } from "@/components/ai-policy-insight";
+import type { AIInsightRequest } from "@/lib/ai-insight";
 import type {
   ConfidenceLevel,
+  CommunityInput,
+  PointRange,
   ReadinessResult,
   RoadmapPhase,
   Scenario,
@@ -25,8 +29,10 @@ interface ReadinessResultsProps {
   communityName: string;
   regionCountry: string;
   hasGenerated: boolean;
+  input: CommunityInput;
   roadmap: RoadmapPhase[];
   recommendedScenario?: Scenario;
+  scenarios: Scenario[];
   onPrint: () => void;
 }
 
@@ -35,8 +41,10 @@ export function ReadinessResults({
   communityName,
   regionCountry,
   hasGenerated,
+  input,
   roadmap,
   recommendedScenario,
+  scenarios,
   onPrint,
 }: ReadinessResultsProps) {
   if (!hasGenerated || result === null) {
@@ -73,6 +81,14 @@ export function ReadinessResults({
   const mainRisk = mainGap
     ? `${mainGap.label} is the main risk because ${lowercaseFirst(mainGap.detail)}`
     : "No single readiness gap dominates the current profile.";
+  const insightPayload = buildInsightRequest({
+    input,
+    result,
+    roadmap,
+    roadmapSummary,
+    scenarios,
+    recommendedScenario,
+  });
 
   return (
     <section
@@ -88,6 +104,8 @@ export function ReadinessResults({
         result={result}
         roadmapSummary={roadmapSummary}
       />
+
+      <AIPolicyInsight requestPayload={insightPayload} />
 
       <DisclosureCards />
 
@@ -569,6 +587,80 @@ function getSectorWhy(label: string) {
   };
 
   return why[label] ?? "Sector readiness affects adoption quality and oversight.";
+}
+
+function buildInsightRequest({
+  input,
+  result,
+  scenarios,
+  recommendedScenario,
+  roadmapSummary,
+  roadmap,
+}: {
+  input: CommunityInput;
+  result: ReadinessResult;
+  scenarios: Scenario[];
+  recommendedScenario?: Scenario;
+  roadmapSummary: string;
+  roadmap: RoadmapPhase[];
+}): AIInsightRequest {
+  return {
+    communityProfile: {
+      communityName: input.communityName,
+      regionCountry: input.regionCountry,
+      communityType: input.communityType,
+    },
+    scores: result.allScores.map((score) => ({
+      key: score.key,
+      label: score.label,
+      score: score.score,
+      rawScore: score.rawScore,
+      confidence: score.confidence.level,
+    })),
+    readiness: {
+      overallScore: result.overallScore,
+      readinessLevel: result.readinessBand.label,
+      confidence: result.overallConfidence.level,
+      confidenceReason: result.overallConfidence.reason,
+    },
+    weakestGaps: result.topGaps.map((gap) => ({
+      label: gap.label,
+      score: gap.score,
+      status: gap.status,
+      detail: gap.detail,
+      confidence: gap.confidence.level,
+    })),
+    priorityActions: result.priorityActions,
+    scenarioComparison: scenarios.map((scenario) => ({
+      title: scenario.title,
+      impactRange: formatPointRange(scenario.impactRange),
+      risk: scenario.risk,
+      difficulty: scenario.difficulty,
+      costEffort: scenario.costEffort,
+      confidence: scenario.confidence.level,
+      bestFor: scenario.bestFor,
+    })),
+    recommendedScenario: recommendedScenario
+      ? {
+          title: recommendedScenario.title,
+          rationale: recommendedScenario.rationale,
+        }
+      : undefined,
+    roadmapSummary,
+    roadmapPhases: roadmap.map((phase) => ({
+      window: phase.window,
+      focus: phase.focus,
+      outcome: phase.outcome,
+    })),
+  };
+}
+
+function formatPointRange(range: PointRange) {
+  return `${formatSignedPoint(range.min)} to ${formatSignedPoint(range.max)}`;
+}
+
+function formatSignedPoint(value: number) {
+  return value > 0 ? `+${value}` : `${value}`;
 }
 
 function lowercaseFirst(value: string) {

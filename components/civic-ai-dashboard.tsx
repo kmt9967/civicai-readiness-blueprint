@@ -146,11 +146,13 @@ export function CivicAIDashboard() {
             <ReadinessResults
               communityName={blueprint?.input.communityName ?? input.communityName}
               hasGenerated={hasGenerated}
+              input={blueprint?.input ?? input}
               onPrint={printReport}
               recommendedScenario={recommendedScenario}
               regionCountry={blueprint?.input.regionCountry ?? input.regionCountry}
               roadmap={blueprint?.roadmap ?? []}
               result={blueprint?.result ?? null}
+              scenarios={blueprint?.scenarios ?? []}
             />
             <ReadinessCharts result={blueprint?.result ?? null} />
           </div>
