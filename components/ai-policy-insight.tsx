@@ -62,24 +62,24 @@ export function AIPolicyInsight({ requestPayload }: AIPolicyInsightProps) {
   }
 
   return (
-    <section className="mt-4 rounded-lg border border-blue-200 bg-gradient-to-br from-slate-950 via-blue-950 to-teal-950 p-5 text-white shadow-lg shadow-blue-950/10">
+    <section className="mt-4 min-w-0 rounded-lg border border-blue-200 bg-gradient-to-br from-slate-950 via-blue-950 to-teal-950 p-4 text-white shadow-lg shadow-blue-950/10 sm:p-5">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-        <div className="max-w-3xl">
+        <div className="min-w-0 max-w-3xl">
           <div className="mb-3 inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-teal-200">
             <BrainCircuit className="h-4 w-4" aria-hidden="true" />
             AI Policy Insight
           </div>
-          <h3 className="text-3xl font-semibold">
+          <h3 className="break-words whitespace-normal text-3xl font-semibold">
             Generate a custom advisory insight
           </h3>
-          <p className="mt-2 text-sm leading-6 text-slate-300">
+          <p className="mt-2 break-words whitespace-normal text-sm leading-6 text-slate-300">
             Uses the current profile, local scores, weakest gaps, scenario
             ranges, and roadmap summary. Outputs remain advisory and require
             human review.
           </p>
         </div>
         <button
-          className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-white px-4 text-sm font-semibold text-slate-950 shadow-sm transition hover:bg-teal-50 disabled:cursor-not-allowed disabled:opacity-70"
+          className="inline-flex min-h-11 w-full items-center justify-center gap-2 whitespace-normal rounded-lg bg-white px-4 py-2 text-center text-sm font-semibold text-slate-950 shadow-sm transition hover:bg-teal-50 disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
           disabled={isLoading}
           onClick={generateInsight}
           type="button"
@@ -94,7 +94,7 @@ export function AIPolicyInsight({ requestPayload }: AIPolicyInsightProps) {
       </div>
 
       {error && (
-        <div className="mt-5 rounded-lg border border-amber-300/40 bg-amber-100 p-4 text-sm leading-6 text-amber-950">
+        <div className="mt-5 min-w-0 break-words whitespace-normal rounded-lg border border-amber-300/40 bg-amber-100 p-4 text-sm leading-6 text-amber-950">
           {AI_INSIGHT_FALLBACK_MESSAGE}
         </div>
       )}
@@ -104,7 +104,7 @@ export function AIPolicyInsight({ requestPayload }: AIPolicyInsightProps) {
           {["Analyzing readiness", "Comparing scenarios", "Drafting guardrails"].map(
             (label) => (
               <div
-                className="rounded-lg border border-white/10 bg-white/10 p-4"
+                className="min-w-0 rounded-lg border border-white/10 bg-white/10 p-4"
                 key={label}
               >
                 <div className="mb-3 h-3 w-32 rounded-full bg-white/20" />
@@ -117,7 +117,7 @@ export function AIPolicyInsight({ requestPayload }: AIPolicyInsightProps) {
       )}
 
       {insight && (
-        <div className="mt-5 grid gap-4 lg:grid-cols-2">
+        <div className="mt-5 grid min-w-0 grid-cols-1 gap-4 lg:grid-cols-2">
           <InsightCard
             icon={<Sparkles className="h-5 w-5" aria-hidden="true" />}
             title="Executive Insight"
@@ -177,14 +177,14 @@ function InsightCard({
   children: ReactNode;
 }) {
   return (
-    <article className="rounded-lg border border-white/10 bg-white/10 p-4 shadow-sm">
-      <div className="mb-3 flex items-center gap-3">
+    <article className="min-w-0 rounded-lg border border-white/10 bg-white/10 p-4 shadow-sm">
+      <div className="mb-3 flex min-w-0 flex-wrap items-center gap-3">
         <div className="grid h-9 w-9 place-items-center rounded-lg bg-teal-300 text-slate-950">
           {icon}
         </div>
-        <h4 className="font-semibold text-white">{title}</h4>
+        <h4 className="min-w-0 break-words whitespace-normal font-semibold text-white">{title}</h4>
       </div>
-      <div className="text-sm leading-6 text-slate-200">{children}</div>
+      <div className="min-w-0 break-words whitespace-normal text-sm leading-6 text-slate-200">{children}</div>
     </article>
   );
 }
@@ -202,9 +202,9 @@ function InsightListCard({
     <InsightCard icon={icon} title={title}>
       <ul className="grid gap-2">
         {items.map((item) => (
-          <li className="flex gap-2" key={item}>
+          <li className="flex min-w-0 gap-2" key={item}>
             <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-teal-300" />
-            <span>{item}</span>
+            <span className="min-w-0 break-words whitespace-normal">{item}</span>
           </li>
         ))}
       </ul>

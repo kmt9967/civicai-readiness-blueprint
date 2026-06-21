@@ -19,17 +19,17 @@ export function ScenarioComparison({
   recommendedScenarioTitle,
 }: ScenarioComparisonProps) {
   return (
-    <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+    <section className="min-w-0 rounded-lg border border-slate-200 bg-white p-4 shadow-sm sm:p-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
+        <div className="min-w-0">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-800">
             Scenario comparison
           </p>
-          <h2 className="mt-1 text-3xl font-semibold text-slate-950">
+          <h2 className="mt-1 break-words whitespace-normal text-3xl font-semibold text-slate-950">
             Compare three adoption paths
           </h2>
         </div>
-        <p className="max-w-xl text-sm leading-6 text-slate-600">
+        <p className="min-w-0 max-w-xl break-words whitespace-normal text-sm leading-6 text-slate-600">
           Projections are local estimate ranges for discussion and planning,
           not forecasts or funding decisions.
         </p>
@@ -41,7 +41,7 @@ export function ScenarioComparison({
           and delayed-adoption scenarios.
         </div>
       ) : (
-        <div className="mt-6 grid gap-4 lg:grid-cols-3">
+        <div className="mt-6 grid min-w-0 grid-cols-1 gap-4 lg:grid-cols-3">
           {scenarios.map((scenario) => (
             <ScenarioCard
               isRecommended={scenario.title === recommendedScenarioTitle}
@@ -66,7 +66,7 @@ function ScenarioCard({
 
   return (
     <article
-      className={`relative rounded-lg border p-5 ${
+      className={`relative min-w-0 rounded-lg border p-5 ${
         isRecommended
           ? "border-teal-300 bg-teal-50 shadow-md shadow-teal-100"
           : "border-slate-200 bg-slate-50"
@@ -79,7 +79,7 @@ function ScenarioCard({
         </div>
       )}
 
-      <div className="flex items-start justify-between gap-4">
+      <div className="flex min-w-0 flex-wrap items-start gap-4">
         <div
           className="grid h-11 w-11 place-items-center rounded-lg text-white shadow-sm"
           style={{ backgroundColor: scenario.color }}
@@ -90,12 +90,12 @@ function ScenarioCard({
             <TrendingDown className="h-5 w-5" aria-hidden="true" />
           )}
         </div>
-        <div className="rounded-lg bg-white px-3 py-2 text-right shadow-sm">
+        <div className="min-w-0 rounded-lg bg-white px-3 py-2 text-left shadow-sm sm:ml-auto sm:text-right">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
             Impact
           </p>
           <p
-            className={`text-lg font-semibold ${
+            className={`break-words whitespace-normal text-lg font-semibold ${
               isPositive ? "text-teal-800" : "text-orange-800"
             }`}
           >
@@ -104,14 +104,14 @@ function ScenarioCard({
         </div>
       </div>
 
-      <h3 className="mt-5 text-xl font-semibold text-slate-950">
+      <h3 className="mt-5 break-words whitespace-normal text-xl font-semibold text-slate-950">
         {scenario.title}
       </h3>
-      <p className="mt-2 text-sm leading-6 text-slate-600">
+      <p className="mt-2 break-words whitespace-normal text-sm leading-6 text-slate-600">
         {scenario.summary}
       </p>
 
-      <div className="mt-5 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+      <div className="mt-5 min-w-0 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
         <ScenarioRow
           label="Readiness impact range"
           value={`${formatPointRange(scenario.impactRange)} points`}
@@ -126,16 +126,16 @@ function ScenarioCard({
         <ScenarioRow label="Best for" value={scenario.bestFor} />
       </div>
 
-      <div className="mt-4 flex gap-3 rounded-lg bg-white p-4 text-sm leading-6 text-slate-600 shadow-sm">
+      <div className="mt-4 flex min-w-0 gap-3 rounded-lg bg-white p-4 text-sm leading-6 text-slate-600 shadow-sm">
         {scenario.title.includes("Delay") ? (
           <Clock3 className="mt-0.5 h-5 w-5 shrink-0 text-orange-700" />
         ) : (
           <BadgeCheck className="mt-0.5 h-5 w-5 shrink-0 text-teal-700" />
         )}
-        <p>{scenario.rationale}</p>
+        <p className="min-w-0 break-words whitespace-normal">{scenario.rationale}</p>
       </div>
 
-      <p className="mt-3 text-xs leading-5 text-slate-500">
+      <p className="mt-3 break-words whitespace-normal text-xs leading-5 text-slate-500">
         Confidence range: {scenario.confidence.reason}
       </p>
     </article>
@@ -150,11 +150,11 @@ function ScenarioRow({
   value: ReactNode;
 }) {
   return (
-    <div className="grid gap-1 border-b border-slate-100 px-4 py-3 last:border-b-0 sm:grid-cols-[130px_1fr]">
-      <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
+    <div className="grid min-w-0 gap-1 border-b border-slate-100 px-4 py-3 last:border-b-0 sm:grid-cols-[minmax(0,130px)_minmax(0,1fr)] sm:gap-3">
+      <p className="min-w-0 break-words whitespace-normal text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
         {label}
       </p>
-      <div className="text-sm font-semibold leading-6 text-slate-950">
+      <div className="min-w-0 break-words whitespace-normal text-sm font-semibold leading-6 text-slate-950">
         {value}
       </div>
     </div>
@@ -178,7 +178,7 @@ function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
 
   return (
     <span
-      className={`inline-flex shrink-0 items-center rounded-lg px-2 py-1 text-xs font-semibold ring-1 ${levelClasses[level]}`}
+      className={`inline-flex w-fit max-w-full items-center whitespace-normal break-words rounded-lg px-2 py-1 text-center text-xs font-semibold ring-1 ${levelClasses[level]}`}
     >
       {level}
     </span>

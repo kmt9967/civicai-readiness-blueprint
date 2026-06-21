@@ -49,16 +49,16 @@ export function ReadinessResults({
 }: ReadinessResultsProps) {
   if (!hasGenerated || result === null) {
     return (
-      <section className="rounded-lg border border-dashed border-slate-300 bg-white p-6 shadow-sm">
+      <section className="min-w-0 rounded-lg border border-dashed border-slate-300 bg-white p-4 shadow-sm sm:p-6">
         <div className="flex items-start gap-3">
           <div className="grid h-10 w-10 place-items-center rounded-lg bg-slate-100 text-slate-600">
             <Gauge className="h-5 w-5" aria-hidden="true" />
           </div>
-          <div>
+          <div className="min-w-0">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
               Readiness results
             </p>
-            <h2 className="mt-1 text-2xl font-semibold text-slate-950">
+            <h2 className="mt-1 break-words whitespace-normal text-2xl font-semibold text-slate-950">
               Generate a blueprint to calculate scores.
             </h2>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">
@@ -92,7 +92,7 @@ export function ReadinessResults({
 
   return (
     <section
-      className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm"
+      className="min-w-0 rounded-lg border border-slate-200 bg-white p-4 shadow-sm sm:p-6"
       id="results"
     >
       <ExecutiveSummary
@@ -117,8 +117,8 @@ export function ReadinessResults({
 
       <SectorScoreCards sectorScores={result.sectorScores} />
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-2">
-        <div>
+      <div className="mt-6 grid min-w-0 gap-6 lg:grid-cols-2">
+        <div className="min-w-0">
           <div className="mb-3 flex items-center gap-2">
             <AlertTriangle className="h-5 w-5 text-orange-700" />
             <h3 className="text-lg font-semibold text-slate-950">
@@ -128,19 +128,21 @@ export function ReadinessResults({
           <div className="grid gap-3">
             {result.topGaps.map((gap) => (
               <div
-                className="rounded-lg border border-slate-200 bg-slate-50 p-4"
+                className="min-w-0 rounded-lg border border-slate-200 bg-slate-50 p-4"
                 key={gap.key}
               >
-                <div className="flex items-center justify-between gap-3">
-                  <h4 className="font-semibold text-slate-950">{gap.label}</h4>
-                  <span className="rounded-lg bg-white px-2 py-1 text-xs font-semibold text-slate-700 shadow-sm">
+                <div className="grid min-w-0 gap-2">
+                  <h4 className="min-w-0 break-words whitespace-normal font-semibold text-slate-950">
+                    {gap.label}
+                  </h4>
+                  <span className="w-fit max-w-full whitespace-normal rounded-lg bg-white px-2 py-1 text-xs font-semibold text-slate-700 shadow-sm">
                     {gap.score}/5
                   </span>
                 </div>
                 <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-orange-700">
                   {gap.status}
                 </p>
-                <div className="mt-3 flex items-center justify-between gap-3 rounded-lg bg-white px-3 py-2 shadow-sm">
+                <div className="mt-3 flex min-w-0 flex-wrap items-center gap-3 rounded-lg bg-white px-3 py-2 shadow-sm">
                   <span className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
                     Confidence
                   </span>
@@ -149,10 +151,10 @@ export function ReadinessResults({
                 <p className="mt-3 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
                   Why this gap matters
                 </p>
-                <p className="mt-2 text-sm leading-6 text-slate-600">
+                <p className="mt-2 break-words whitespace-normal text-sm leading-6 text-slate-600">
                   {gap.detail}
                 </p>
-                <p className="mt-2 text-xs leading-5 text-slate-500">
+                <p className="mt-2 break-words whitespace-normal text-xs leading-5 text-slate-500">
                   {gap.confidence.reason}
                 </p>
               </div>
@@ -160,7 +162,7 @@ export function ReadinessResults({
           </div>
         </div>
 
-        <div>
+        <div className="min-w-0">
           <div className="mb-3 flex items-center gap-2">
             <Lightbulb className="h-5 w-5 text-blue-700" />
             <h3 className="text-lg font-semibold text-slate-950">
@@ -170,19 +172,19 @@ export function ReadinessResults({
           <div className="grid gap-3">
             {result.priorityActions.map((action) => (
               <div
-                className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm"
+                className="min-w-0 rounded-lg border border-slate-200 bg-white p-4 shadow-sm"
                 key={action.title}
               >
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-teal-700" />
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+                  <div className="min-w-0">
+                    <p className="break-words whitespace-normal text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
                       Linked gap: {action.linkedGap}
                     </p>
-                    <h4 className="mt-1 font-semibold text-slate-950">
+                    <h4 className="mt-1 break-words whitespace-normal font-semibold text-slate-950">
                       {action.title}
                     </h4>
-                    <p className="mt-2 text-sm leading-6 text-slate-600">
+                    <p className="mt-2 break-words whitespace-normal text-sm leading-6 text-slate-600">
                       {action.detail}
                     </p>
                   </div>
@@ -200,15 +202,15 @@ export function ReadinessResults({
             Score confidence matrix
           </h3>
         </div>
-        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+        <div className="grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {result.allScores.map((score) => (
             <div
-              className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm"
+              className="min-w-0 rounded-lg border border-slate-200 bg-white p-4 shadow-sm"
               key={score.key}
             >
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="text-sm font-semibold text-slate-950">
+              <div className="grid min-w-0 gap-3">
+                <div className="min-w-0">
+                  <p className="break-words whitespace-normal text-sm font-semibold text-slate-950">
                     {score.label}
                   </p>
                   <p className="mt-1 text-xl font-semibold text-slate-950">
@@ -217,7 +219,7 @@ export function ReadinessResults({
                 </div>
                 <ConfidenceBadge level={score.confidence.level} />
               </div>
-              <p className="mt-3 text-xs leading-5 text-slate-600">
+              <p className="mt-3 break-words whitespace-normal text-xs leading-5 text-slate-600">
                 {score.confidence.reason}
               </p>
             </div>
@@ -246,13 +248,13 @@ function ExecutiveSummary({
   onPrint: () => void;
 }) {
   return (
-    <div className="rounded-lg border border-slate-200 bg-slate-950 p-5 text-white shadow-sm">
+    <div className="min-w-0 rounded-lg border border-slate-200 bg-slate-950 p-5 text-white shadow-sm">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-        <div>
+        <div className="min-w-0">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-teal-300">
             Executive Summary
           </p>
-          <h2 className="mt-1 text-3xl font-semibold">
+          <h2 className="mt-1 break-words whitespace-normal text-3xl font-semibold">
             {communityName || "Community"} readiness brief
           </h2>
           <p className="mt-2 flex items-center gap-2 text-sm text-slate-300">
@@ -261,7 +263,7 @@ function ExecutiveSummary({
           </p>
         </div>
         <button
-          className="no-print inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-white px-4 text-sm font-semibold text-slate-950 shadow-sm transition hover:bg-teal-50 focus:outline-none focus:ring-4 focus:ring-white/20"
+          className="no-print inline-flex min-h-11 w-full items-center justify-center gap-2 whitespace-normal rounded-lg bg-white px-4 py-2 text-center text-sm font-semibold text-slate-950 shadow-sm transition hover:bg-teal-50 focus:outline-none focus:ring-4 focus:ring-white/20 sm:w-auto"
           onClick={onPrint}
           type="button"
         >
@@ -270,8 +272,8 @@ function ExecutiveSummary({
         </button>
       </div>
 
-      <div className="mt-6 grid gap-4 lg:grid-cols-[210px_minmax(0,1fr)]">
-        <div className="rounded-lg bg-white p-5 text-slate-950">
+      <div className="mt-6 grid min-w-0 gap-4 lg:grid-cols-[210px_minmax(0,1fr)]">
+        <div className="min-w-0 rounded-lg bg-white p-5 text-slate-950">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
             Overall readiness
           </p>
@@ -290,7 +292,7 @@ function ExecutiveSummary({
           </div>
         </div>
 
-        <div className="grid gap-3 md:grid-cols-2">
+        <div className="grid min-w-0 gap-3 md:grid-cols-2">
           <SummaryLine label="Main risk" value={mainRisk} />
           <SummaryLine
             label="Best recommended scenario"
@@ -317,13 +319,13 @@ function ToplineResults({
   nextStep: string;
 }) {
   return (
-    <div className="mt-6 rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+    <div className="mt-6 min-w-0 rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
       <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-        <div>
+        <div className="min-w-0">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-teal-800">
             10-second readout
           </p>
-          <h3 className="text-2xl font-semibold text-slate-950">
+          <h3 className="break-words whitespace-normal text-2xl font-semibold text-slate-950">
             The profile is {result.readinessBand.label.toLowerCase()} and needs
             targeted human review.
           </h3>
@@ -334,7 +336,7 @@ function ToplineResults({
         />
       </div>
 
-      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 2xl:grid-cols-4">
         <ToplineCard
           icon={<Gauge className="h-5 w-5" aria-hidden="true" />}
           label="Score"
@@ -387,16 +389,16 @@ function SectorScoreCards({ sectorScores }: { sectorScores: ScoreDatum[] }) {
           Sector-wise scores
         </h3>
       </div>
-      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+      <div className="grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
         {sectorScores.map((sector) => (
           <div
-            className="rounded-lg border border-slate-200 bg-slate-50 p-4"
+            className="min-w-0 rounded-lg border border-slate-200 bg-slate-50 p-4"
             key={sector.key}
             title={getSectorWhy(sector.label)}
           >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <p className="text-sm font-semibold text-slate-950">
+            <div className="grid min-w-0 gap-3">
+              <div className="min-w-0">
+                <p className="break-words whitespace-normal text-sm font-semibold text-slate-950">
                   {sector.label}
                 </p>
                 <p className="mt-1 text-3xl font-semibold text-slate-950">
@@ -414,10 +416,10 @@ function SectorScoreCards({ sectorScores }: { sectorScores: ScoreDatum[] }) {
                 }}
               />
             </div>
-            <p className="mt-3 text-sm leading-5 text-slate-700">
+            <p className="mt-3 break-words whitespace-normal text-sm leading-5 text-slate-700">
               {getSectorExplanation(sector.score)}
             </p>
-            <p className="mt-2 text-xs leading-5 text-slate-500">
+            <p className="mt-2 break-words whitespace-normal text-xs leading-5 text-slate-500">
               Why it matters: {getSectorWhy(sector.label)}
             </p>
           </div>
@@ -429,7 +431,7 @@ function SectorScoreCards({ sectorScores }: { sectorScores: ScoreDatum[] }) {
 
 function DisclosureCards() {
   return (
-    <div className="mt-4 grid gap-3 lg:grid-cols-2">
+    <div className="mt-4 grid min-w-0 gap-3 lg:grid-cols-2">
       <DisclosureCard
         icon={<ShieldCheck className="h-5 w-5" aria-hidden="true" />}
         title="Data Disclosure"
@@ -461,14 +463,14 @@ function DisclosureCard({
     tone === "teal" ? "bg-teal-50 text-teal-800" : "bg-blue-50 text-blue-800";
 
   return (
-    <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+    <div className="min-w-0 rounded-lg border border-slate-200 bg-slate-50 p-4">
       <div className="flex items-start gap-3">
         <div className={`grid h-10 w-10 place-items-center rounded-lg ${toneClass}`}>
           {icon}
         </div>
-        <div>
-          <h3 className="font-semibold text-slate-950">{title}</h3>
-          <p className="mt-1 text-sm leading-6 text-slate-600">{text}</p>
+        <div className="min-w-0">
+          <h3 className="break-words whitespace-normal font-semibold text-slate-950">{title}</h3>
+          <p className="mt-1 break-words whitespace-normal text-sm leading-6 text-slate-600">{text}</p>
         </div>
       </div>
     </div>
@@ -477,11 +479,11 @@ function DisclosureCard({
 
 function SummaryLine({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-white/10 bg-white/10 p-4">
+    <div className="min-w-0 rounded-lg border border-white/10 bg-white/10 p-4">
       <p className="text-xs font-semibold uppercase tracking-[0.14em] text-teal-200">
         {label}
       </p>
-      <p className="mt-2 text-sm leading-6 text-white">{value}</p>
+      <p className="mt-2 break-words whitespace-normal text-sm leading-6 text-white">{value}</p>
     </div>
   );
 }
@@ -505,7 +507,7 @@ function ToplineCard({
   };
 
   return (
-    <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+    <div className="min-w-0 rounded-lg border border-slate-200 bg-slate-50 p-4">
       <div
         className={`mb-3 grid h-10 w-10 place-items-center rounded-lg ${toneClasses[tone]}`}
       >
@@ -514,7 +516,7 @@ function ToplineCard({
       <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
         {label}
       </p>
-      <p className="mt-2 text-lg font-semibold leading-6 text-slate-950">
+      <p className="mt-2 break-words whitespace-normal text-lg font-semibold leading-6 text-slate-950">
         {value}
       </p>
     </div>
@@ -541,7 +543,7 @@ function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
 
   return (
     <span
-      className={`inline-flex shrink-0 items-center rounded-lg px-2 py-1 text-xs font-semibold ring-1 ${levelClasses[level]}`}
+      className={`inline-flex w-fit max-w-full items-center whitespace-normal break-words rounded-lg px-2 py-1 text-center text-xs font-semibold ring-1 ${levelClasses[level]}`}
     >
       {level}
     </span>
@@ -558,7 +560,7 @@ function StatusBadge({ score }: { score: number }) {
 
   return (
     <span
-      className={`inline-flex shrink-0 items-center rounded-lg px-2 py-1 text-xs font-semibold ring-1 ${statusClasses[status]}`}
+      className={`inline-flex w-fit max-w-full items-center whitespace-normal break-words rounded-lg px-2 py-1 text-center text-xs font-semibold ring-1 ${statusClasses[status]}`}
     >
       {status}
     </span>
